@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px ;    
+  gap: 10px;
+  padding: 30px;
+  color: #262626;
+  border-radius: 10px;
+  background-color: white;
+  width: 640px;
+}
+.container hr {
+  height: 1px;
+  background-color: #707070;
+}
+.container h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container button {
+  background-color: blueviolet;
+  color: white;
+  outline: none;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 15px;
+  height: 40px;
+  width: 100px;
+}
+.index{
+    color:  #707070;
+    margin: auto;
+    font-size: 14px;
+}
+.correct{
+    background-color: #dffff2;
+    border: 1px solid rgb(184, 246, 178);
+}
+.wrong{
+    background-color: #FFEBEB;
+    border: 1px solid rgba(255, 36, 36, 0.871);
+}
+
+@media (max-width:850px) {
+    .container{
+        width: 500px;
+    }
+}
+
+@media (max-width:700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+    .container h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container ul li{
+        font-size: 12px;
+    }
+    .index{
+        font-size: 12px;
+    }
+    
+}
